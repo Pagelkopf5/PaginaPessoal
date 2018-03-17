@@ -1,0 +1,87 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+	font-size: 16px;
+	border: none;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+nav{
+	display: block;
+	text-align: right;
+	padding-left: 6px;
+	font-family: Lucida Console;
+}
+
+nav a{
+	display: inline-block;
+	height: 30px;
+	width: 95px;
+	text-align: center;	
+	font-size: 18px;
+	color: #919191;
+}
+nav a:hover{
+	color: #cfcfcf;
+}
+
+header{
+	height: 100%;
+}
+
+footer{
+	background-color: #404040;
+	display: block;
+	height: 30px;
+}
+footer p{
+	text-align: center;
+	padding-top: 9px;
+	color: #cfcfcf;
+	font-size: 14px;
+}
+
+#frontPage{
+	background-image: url(background.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+#frontPage h1{
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	padding-top: 15%;
+    color: #cfcfcf;
+    font-size: 45px;	
+}
+
+#menu{
+	padding-top: 21px;
+}
+
+#conteudo{
+	font-size: 22px;
+}
+
+#conteudo h2{
+	font-size: 35px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#contato p{
+	font-size: 20px;
+}
