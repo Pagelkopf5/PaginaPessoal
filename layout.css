@@ -25,8 +25,7 @@ nav{
 nav a{
 	display: inline-block;
 	height: 30px;
-	width: auto;
-	margin-right: 10px;
+	width: 95px;
 	text-align: center;	
 	font-size: 18px;
 	color: #919191;
@@ -43,7 +42,6 @@ footer{
 	background-color: #404040;
 	display: block;
 	height: 30px;
-	float: 
 }
 footer p{
 	text-align: center;
@@ -91,12 +89,10 @@ footer p{
 }
 
 #dados{
-	width: 80%;
-	overflow: auto;
+	width: 50%;
+	position: relative;
+	align-self: left;
 }
-.selfie		 {
-	float: right;
-	width: auto;
-	height: 220px;
+img {
     border-radius: 50%;
 }
